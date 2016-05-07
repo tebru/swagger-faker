@@ -12,7 +12,7 @@
         "php": ">= 5.5",
         "fzaninotto/faker": "^1.6",
         "tebru/enum": "^0.2.0",
-        "league/json-guard": "^0.2.0"
+        "league/json-guard": "dev-master"
     },
     "autoload": {
         "psr-4": {
