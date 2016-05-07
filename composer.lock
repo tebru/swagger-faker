@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9797f140e1a1a6fa8a7c0766c3210f2a",
-    "content-hash": "d2ae55e75d5d7ada0effaaf2fbd4d082",
+    "hash": "c60441aacadf4e3c1848dd24ae63d291",
+    "content-hash": "97e0e6f65db62cee1196eca7aed90189",
     "packages": [
         {
             "name": "fzaninotto/faker",
@@ -57,16 +57,16 @@
         },
         {
             "name": "league/json-guard",
-            "version": "dev-master",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/json-guard.git",
-                "reference": "c253388708ed0555eef0752153ceb03029785716"
+                "reference": "86eb331b06df0f83b74dd53aeca76206f11ffe62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/json-guard/zipball/c253388708ed0555eef0752153ceb03029785716",
-                "reference": "c253388708ed0555eef0752153ceb03029785716",
+                "url": "https://api.github.com/repos/thephpleague/json-guard/zipball/86eb331b06df0f83b74dd53aeca76206f11ffe62",
+                "reference": "86eb331b06df0f83b74dd53aeca76206f11ffe62",
                 "shasum": ""
             },
             "require": {
@@ -117,7 +117,7 @@
                 "schema",
                 "validation"
             ],
-            "time": "2016-05-07 04:12:34"
+            "time": "2016-05-04 15:45:55"
         },
         {
             "name": "tebru/enum",
@@ -165,9 +165,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "league/json-guard": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
