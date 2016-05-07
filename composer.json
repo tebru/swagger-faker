@@ -1,0 +1,22 @@
+{
+    "name": "tebru/swagger-faker",
+    "description": "Uses Faker to fake Swagger schemas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nate Brunette",
+            "email": "n@tebru.net"
+        }
+    ],
+    "require": {
+        "php": ">= 5.5",
+        "fzaninotto/faker": "^1.6",
+        "league/json-guard": "dev-master",
+        "tebru/enum": "^0.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tebru\\SwaggerFaker\\": "src/"
+        }
+    }
+}
