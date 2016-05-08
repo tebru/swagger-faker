@@ -41,6 +41,6 @@ class SwaggerProvider extends Base
             return null;
         }
 
-        return json_encode($generator->generate($schema));
+        return $generator->generate($schema);
     }
 }
