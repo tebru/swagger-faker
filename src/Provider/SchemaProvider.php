@@ -197,6 +197,7 @@ class SchemaProvider
                             $foundPath = null;
                             break;
                         } else {
+                            $foundPath = $value;
                             break;
                         }
                     }
