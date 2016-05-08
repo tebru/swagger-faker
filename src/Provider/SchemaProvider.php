@@ -136,6 +136,12 @@ class SchemaProvider
             // assume we found it
             $foundPath = $value;
 
+            $pathKeyParts = explode('/', $pathKey);
+
+            if (count($pathParts) !== count($pathKeyParts)) {
+                continue;
+            }
+
             if (false === strpos($pathKey, '{')) {
                 $foundPath = null;
                 continue;
@@ -156,8 +162,6 @@ class SchemaProvider
             }
 
             $parameters = $this->getProperty($operationProperty, 'parameters');
-
-            $pathKeyParts = explode('/', $pathKey);
 
             foreach ($pathKeyParts as $index => $part) {
                 // if the key we're checking doesn't exist, exit
@@ -190,6 +194,8 @@ class SchemaProvider
                         $validator = new Validator($pathParts[$index], $parameter);
                         if ($validator->fails()) {
                             $foundPath = null;
+                            break;
+                        } else {
                             break;
                         }
                     }
