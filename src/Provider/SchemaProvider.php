@@ -175,6 +175,10 @@ class SchemaProvider
                     $name = substr($part, 1, -1);
 
                     foreach ($parameters as $parameter) {
+                        if ($parameter instanceof Reference) {
+                            $parameter = $parameter->resolve();
+                        }
+
                         $inProperty = $this->getProperty($parameter, 'in', '');
                         if ($inProperty !== 'path') {
                             $foundPath = null;
