@@ -139,6 +139,7 @@ class SchemaProvider
             $pathKeyParts = explode('/', $pathKey);
 
             if (count($pathParts) !== count($pathKeyParts)) {
+                $foundPath = null;
                 continue;
             }
 
