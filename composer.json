@@ -18,11 +18,5 @@
         "psr-4": {
             "Tebru\\SwaggerFaker\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/natebrunette/json-guard"
-        }
-    ]
+    }
 }

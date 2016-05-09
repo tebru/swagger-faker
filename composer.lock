@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02c6b0de2f1e52cb0849ade9e11869f3",
-    "content-hash": "0b9b2ea0232c579af8f68662a89a8a74",
+    "hash": "9e51ccf0c5f01ec270966c3a4d7d7855",
+    "content-hash": "5017691a718a76e8db91386be96d6770",
     "packages": [
         {
             "name": "fzaninotto/faker",
@@ -60,13 +60,13 @@
             "version": "v0.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/natebrunette/json-guard.git",
-                "reference": "c253388708ed0555eef0752153ceb03029785716"
+                "url": "https://github.com/thephpleague/json-guard.git",
+                "reference": "5b25c41c2f8485c40e7d3e848c3b505cf68fdce1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/natebrunette/json-guard/zipball/c253388708ed0555eef0752153ceb03029785716",
-                "reference": "c253388708ed0555eef0752153ceb03029785716",
+                "url": "https://api.github.com/repos/thephpleague/json-guard/zipball/5b25c41c2f8485c40e7d3e848c3b505cf68fdce1",
+                "reference": "5b25c41c2f8485c40e7d3e848c3b505cf68fdce1",
                 "shasum": ""
             },
             "require": {
@@ -96,22 +96,7 @@
                     "src/functions.php"
                 ]
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "League\\JsonGuard\\Test\\": "tests"
-                },
-                "files": [
-                    "tests/helpers.php"
-                ]
-            },
-            "scripts": {
-                "test": [
-                    "phpunit"
-                ],
-                "cs": [
-                    "phpcs --standard=psr2 src/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -126,16 +111,13 @@
             "description": "A validator for JSON using json-schema.",
             "homepage": "https://github.com/thephpleague/json-guard",
             "keywords": [
-                "Validation",
                 "json",
                 "json-schema",
                 "json-schema.org",
-                "schema"
+                "schema",
+                "validation"
             ],
-            "support": {
-                "source": "https://github.com/natebrunette/json-guard/tree/v0.2.1"
-            },
-            "time": "2016-05-07 04:12:34"
+            "time": "2016-05-09 01:18:33"
         },
         {
             "name": "tebru/enum",
