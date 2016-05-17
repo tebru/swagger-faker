@@ -123,6 +123,7 @@ class SchemaProvider
      */
     private function findInPaths(stdClass $paths, $path, $operation)
     {
+        $path = explode('?', $path)[0];
         $pathsArray = get_object_vars($paths);
 
         if (array_key_exists($path, $pathsArray)) {
